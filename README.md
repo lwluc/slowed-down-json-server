@@ -8,6 +8,7 @@ A slowed down version of a the [JSON Server](https://github.com/typicode/json-se
 # Table of Contents <!-- omit from toc -->
 
 - [🚀Getting Started](#getting-started)
+  - [CLI Options](#cli-options)
 - [📈Load testing](#load-testing)
 
 ## 🚀Getting Started
@@ -27,6 +28,15 @@ $ npm start
 You should see something like
 
 > JSON Server is running on Port 3000
+
+### CLI Options
+
+You could use the following cli options (e.g. `npm run start -- --port=4000`)
+
+- `--port` to set the Port of the Server. Default is `3000`
+- `--data` to set the Path to your `db.json`, should be a relative path. Default is `./server/db.json`
+- `--minRequestTime` to set the time a request should take at least. Default is `200`
+- `--maxRequestTime` to set the time a request should take at most. Default is `2000`
 
 ## 📈Load testing
 
