@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
+    "load-test": "curl -f -LI http://localhost:3000/profile && artillery run --output reports/test-run-report.json asciiart-load-test.yml && artillery report reports/test-run-report.json",
     "prepare": "husky install"
   },
   "author": "Luc Weinbrecht (luc.weinbrecht.de)",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
+    "artillery": "^2.0.21",
     "eslint": "^9.15.0",
     "globals": "^15.12.0",
     "husky": "^9.1.7",
