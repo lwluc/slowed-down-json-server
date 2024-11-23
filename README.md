@@ -5,6 +5,8 @@ A slowed down version of a the [JSON Server](https://github.com/typicode/json-se
 ![Load Test: HTTP Responses](assets/http.responses.png)
 ![Load Test: HTTP Response Time 2xx](assets/http.response_time.2xx.png)
 
+# Table of Contents <!-- omit from toc -->
+
 - [🚀Getting Started](#getting-started)
 - [📈Load testing](#load-testing)
 
