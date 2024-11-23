@@ -1,10 +1,15 @@
 # Slowed Down JSON Server <!-- omit from toc -->
 
-A slowed down version of a the [JSON Server](https://github.com/typicode/json-server) to simulate (randomly) slow requests
+A slowed down version of the [JSON Server](https://github.com/typicode/json-server) to simulate (randomly) slow requests.
 
 The following diagrams show the results of a load test, proofing that the request time varies.
 
+_HTTP Responses_
 ![Load Test: HTTP Responses](assets/http.responses.png)
+
+<br>
+
+_HTTP Response Time 2xx_
 ![Load Test: HTTP Response Time 2xx](assets/http.response_time.2xx.png)
 
 # Table of Contents <!-- omit from toc -->
